@@ -1,0 +1,193 @@
+:root {
+	--background-section: gray;
+}
+
+/* GLOBALS */
+
+html {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.1em;
+}
+
+.unstyled-list {
+	list-style: none;
+}
+
+.link {
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.navigation_list li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.header_navigation,
+.hero-section,
+.page-section {
+	background-color: var(--background-section);
+}
+
+.navigation_list>li {
+	list-style: none;
+}
+
+.sub-title-section {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color: #303030;
+}
+
+.title-section {
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 49px;
+	letter-spacing: 0.05em;
+	color: #303030;
+}
+
+.text-section-first-text {
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 0.02em;
+	color: #555555;
+}
+
+.text-section {
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0.02em;
+	color: #555555;
+}
+
+.page-section {
+	background-color: var(--background-section);
+}
+
+/* .right-navigation-list {
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.right-navigation-list li{
+   list-style: none;
+}
+
+.right-navigation-list li a{
+    
+    color: #FFFFFF;
+    text-decoration: none;
+} */
+
+.online-booking-button {
+	box-sizing: border-box;
+	border: 1px solid #ff6c00;
+	border-radius: 25px;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0.09em;
+	text-transform: uppercase;
+	background: rgba(25, 28, 38, 0.2);
+}
+
+/* HERO SECTION */
+
+.hero-section {
+	color: #303030;
+}
+
+.hero-sub-title-section {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title-section {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 85px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+}
+
+.hero-text-section {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 0.02em;
+	color: #9da4bd;
+}
+
+/* PORTOFOLIO */
+
+.card {
+	width: 170px;
+	height: 133px;
+}
+
+.card-title {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 57px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #303030;
+}
+
+.card-description {
+	font-weight: 600;
+	font-size: 11px;
+	line-height: 15px;
+	text-align: center;
+	color: #303030;
+}
+
+.sup {
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	color: #ff6c00;
+}
+
+/* OUR BARBERS */
+
+.our-barbers .image {
+	width: 270;
+	height: 360;
+}
+
+.our-barbers .title {
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #303030;
+}
+
+.our-barbers .ocupation {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: #ff6c00;
+}
